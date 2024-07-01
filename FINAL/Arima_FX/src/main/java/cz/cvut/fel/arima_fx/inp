@@ -1,0 +1,19 @@
+System.out.println(Arrays.deepToString(board.play_desk[1][3].legal_moves) + board.play_desk[1][3].on_box.name + "--> " + board.play_desk[1][3].VERTICAL +  board.play_desk[1][3].HORIZONTAL);
+System.out.println(Arrays.deepToString(board.play_desk[0][3].legal_moves) + board.play_desk[0][3].on_box.name + "--> " + board.play_desk[0][3].VERTICAL +  board.play_desk[0][3].HORIZONTAL);
+System.out.println(Arrays.deepToString(board.play_desk[0][0].legal_moves) + board.play_desk[0][0].on_box.name + "--> " + board.play_desk[0][0].VERTICAL +  board.play_desk[0][0].HORIZONTAL);
+System.out.println(Arrays.deepToString(board.play_desk[3][0].legal_moves) + board.play_desk[3][0].on_box.name + "--> " + board.play_desk[3][0].VERTICAL +  board.play_desk[3][0].HORIZONTAL);
+
+
+//        for (int i = 10; i < 256 ; i++) {
+//            char fild = (char) i;
+//            System.out.println(fild +"/"+ i);
+//
+//        }
+
+   System.out.println(Arrays.deepToString(board.play_desk[1][3].legal_moves) + board.play_desk[1][3].on_box.name + "--> " + board.play_desk[1][3].VERTICAL +  board.play_desk[1][3].HORIZONTAL);
+        System.out.println(Arrays.deepToString(board.play_desk[0][3].legal_moves) + board.play_desk[0][3].on_box.name + "--> " + board.play_desk[0][3].VERTICAL +  board.play_desk[0][3].HORIZONTAL);
+        System.out.println(Arrays.deepToString(board.play_desk[0][0].legal_moves) + board.play_desk[0][0].on_box.name + "--> " + board.play_desk[0][0].VERTICAL +  board.play_desk[0][0].HORIZONTAL);
+        System.out.println(Arrays.deepToString(board.play_desk[3][0].legal_moves) + board.play_desk[3][0].on_box + "--> " + board.play_desk[3][0].VERTICAL +  board.play_desk[3][0].HORIZONTAL);
+        System.out.println("Did bunny crossed?  " + board.did_bunny_cross());
+
+

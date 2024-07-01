@@ -1,0 +1,146 @@
+
+    .trap_setup{
+        -fx-background-image:url("lava.jpg");
+    }
+    .square_setup{
+            -fx-background-color: white;
+    }
+        .square_setup_gold{
+            -fx-background-color: #FFC72C;
+        }
+        .square_setup_silver{
+            -fx-background-color: #6699CC;
+        }
+
+    .Start_Button{
+        -fx-background-color: #00563B;
+        -fx-text-fill: WHITE;
+        -fx-font-weight: bold;
+        -fx-font-size: 20;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+.root{
+  -fx-background-color: transparent;
+}
+
+    .Alphabet_bar{
+        -fx-padding: 0 0 0 50;
+    }
+
+        .coord_box{
+            -fx-background-color: transparent;
+        }
+            .side_coord{
+                    -fx-text-fill: black;
+                    -fx-font-weight: normal;
+                    -fx-font-size: 20;
+            }
+
+
+    .Arimaa_board{
+         -fx-background-image:url("stone.png");
+         -fx-background-position: center center;
+         -fx-background-size: 100% 100%;
+    }
+        .square{
+            -fx-background-color:transparent
+        }
+
+        .trap{
+            -fx-background-image:url("lava.jpg");
+            -fx-background-size: 100% 100%;
+        }
+
+                .selected{
+                    -fx-background-image:url("stone_selected.png");
+                }
+                .togo{
+                    -fx-background-image:url("stone_togo.png");
+                }
+                .Freeze{
+                    -fx-background-image:url("freeze.png");
+                    -fx-background-size: cover;
+                }
+
+
+        .Arimaa_board_mini{
+             -fx-background-color: #F0F8FF;
+        }
+            .square_mini{
+                -fx-background-color: transparent;
+            }
+            .trap_mini{
+                -fx-background-color: RED;
+            }
+
+        .pre{
+            -fx-text-fill: black;
+            -fx-font-size: 20;
+            -fx-border-radius: 5px;
+            -fx-border-width: 2px;
+            -fx-border-color: black;
+        }
+        .set{
+            -fx-background-image:url("set.png");
+            -fx-background-size: 100% 100%;
+            -fx-border-radius: 5px;
+                       -fx-border-width: 2px;
+                       -fx-border-color: GREEN;
+        }
+        .next{
+            -fx-text-fill: black;
+            -fx-font-size: 20;
+            -fx-border-radius: 5px;
+            -fx-border-width: 2px;
+            -fx-border-color: black;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main{
+    -fx-background-color: rgb(30, 87, 255);
+    -fx-background-color: linear-gradient(to right, rgba(0,83,67,1) 0%, rgba(111,207,167,1) 45%, rgba(113,223,186,1) 61%, rgba(117,254,255,1) 100%);
+}
+
+    .TopLabel{
+            -fx-text-fill: WHITE;
+            -fx-font-weight: bold;
+            -fx-font-size: 40;
+    }
+        .Gold_topBar{
+          -fx-background-color: rgb(255, 120, 30);
+          -fx-background-color: linear-gradient(to right, rgba(255, 120, 30, 1) 0%, rgba(253, 223, 45, 1) 100%);
+        }
+        .Silver_topBar{
+            -fx-background-color: rgb(30, 87, 255);
+            -fx-background-color: linear-gradient(to right, rgba(30, 87, 255, 1) 0%, rgba(111, 248, 254, 1) 100%);
+        }
+
+
+
+
+
+
+
+
